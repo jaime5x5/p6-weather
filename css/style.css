@@ -1,0 +1,79 @@
+h1 {
+	font-size: 3em;
+	padding-bottom: 20px;
+	margin-bottom: -10px;
+	font-family: "p22-fllw-eaglefeather-n7","p22-fllw-eaglefeather",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+small {
+	visibility: hidden;
+}
+body {
+	background:url("../img/skulls.png");
+}
+
+.weatherForecast {
+	padding: 5px;
+}
+.weatherReport {
+	padding: 5px;
+}
+.weatherList {
+	padding: 5px;
+}
+.weatherItem {
+	height: 300px;
+	width: 300px;
+	background-position: 0 3em;
+	padding: 3px;
+}
+.weatherCity {
+	font-size: 2.5em;
+}
+.weatherTemp {
+	margin-top: 3em;
+	margin-bottom: 10px;
+	font-size: 3em;
+}
+.weatherDesc {
+	float: left;
+	margin-right: 20px;
+}
+.weatherRange {
+	margin-bottom: 10px;	
+}
+.weatherWind {
+	float: left;
+	margin-right: 20px;
+}
+.weatherHumidity {
+	margin-bottom: 10px;
+}
+.weatherSunrise {
+	float: left;
+	margin-right: 20px;
+}
+.weatherSunset {
+	padding-bottom: 10px;
+}
+.weatherForecastItem {
+	height: 100px;
+	width: 300px;
+	background-position: top left;
+	margin-top: 20px;
+	border-top: 2px dotted grey;	
+}
+.weatherForecastDay {
+	font-size: 2em;
+	text-align: center;
+}
+.weatherForecastDate {
+	visibility: hidden;
+}
+.weatherForecastText {
+	text-align: center;
+}
+.weatherForecastRange {
+	text-align: center;
+}

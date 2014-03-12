@@ -1,0 +1,37 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-app</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/fastclick.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/vendor/modernizr.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/wtg4fiw.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="js/jquery.zweatherfeed.min.js" type="text/javascript"></script>
+
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="large-4 large-centered columns">
+        <div class="wrapper">
+            <h1>myWeather</h1>
+            <form id="search">
+              <label>Enter A City</label>
+              <input type="text" id="weatherLocation" name="weatherLocation" size="50">
+              <input type="submit" name="submit" value="Search">
+            </form>
+            <div id="weatherList" class="weatherList"></div>
+            <div id="weatherReport" class="weatherFeed"></div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script> 
+  </body>
+</html>
