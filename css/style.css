@@ -57,7 +57,15 @@ label {
 	font-family: 'droid_sansregular';
 	font-size: 1.75em;
 }
-
+input[type="submit"] {
+	font-family: 'droid_sansregular';
+	font-size: 1.5em;
+}
+input[type="text"] {
+	font-family: 'droid_sansregular';
+	font-size: 1.75em;
+	padding: 30px;
+}
 .weatherForecast {
 	padding: 5px;
 }
