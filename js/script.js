@@ -72,7 +72,6 @@ $('#search').submit( function(e) {
     
                         html = html + '</ul>';
 
-                        // output.innerHTML = html;
                         document.getElementById("weatherList").innerHTML = html;
 
                         // Bind callback links
@@ -98,13 +97,8 @@ $('#search').submit( function(e) {
         } else {
 
             // No search given
-            // var address = "Spokane, WA"
-            // showLocation(address, "2497646");
             document.getElementById("weatherList").innerHTML = 'Please enter a location or partial address'; 
-
         }
-        // var address = "Spokane, WA"
-        // showLocation(address, "2497646");
     }
 
     function _getWeatherAddress(data) {
@@ -122,17 +116,4 @@ $('#search').submit( function(e) {
         }
 
     });
-             // $('#weather').weatherfeed(['2497646'],{
-             //    unit: 'f',
-             //    image: true,
-             //    country: false,
-             //    highlow: true,
-             //    wind: true,
-             //    humidity: true,
-             //    visibility: false,
-             //    sunrise: true,
-             //    sunset: true,
-             //    forecast: true,
-             //    link: false,
-             //    woeid: true
-             //  });
+ 
