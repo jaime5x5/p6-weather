@@ -1,8 +1,22 @@
+@font-face {
+    font-family: 'fff_tusjbold';
+    src: url('fonts/FFF_Tusj-webfont.eot');
+    src: url('fonts/FFF_Tusj-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FFF_Tusj-webfont.woff') format('woff'),
+         url('fonts/FFF_Tusj-webfont.ttf') format('truetype'),
+         url('fonts/FFF_Tusj-webfont.svg#fff_tusjbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 h1 {
-	font-size: 3em;
+	font-size: 3.2em;
+	color: #006400;
+	text-shadow: 1px 1px 3px #CACACA;
 	padding-bottom: 20px;
 	margin-bottom: -10px;
-	font-family: "p22-fllw-eaglefeather-n7","p22-fllw-eaglefeather",sans-serif;
+	font-family: 'fff_tusjbold';
 	font-style: normal;
 	font-weight: 700;
 }
